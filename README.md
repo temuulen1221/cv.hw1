@@ -1,6 +1,13 @@
-# cv.hw1
-#Instruction
-Record Mode Indicator: When recording is True, a red circle is drawn at coordinates (50, 50) with a radius of 20 pixels. The circle disappears when paused.
-Space Key: Press Space key toggles the recording variable between True (Record) and False (Pause). The console prints the current mode.
-ESC Key: Pressing ESC exits the program.
-Video Saving: Frames are only written to output.avi when in Record mode.
+# cv.hw1 - Video Recorder
+
+Simple video recorder using OpenCV.
+
+### Features
+- **Record Mode Indicator**: Red circle at (50, 50), radius 20px when recording; hidden when paused.
+- **Space Key**: Toggles Record (`True`) / Pause (`False`). Mode printed to console.
+- **ESC Key**: Exits program.
+- **Video Saving**: Frames saved to `output.avi` only in Record mode.
+
+### Setup
+- Install: `pip install opencv-python`
+- Run: `python video_recorder.py`
